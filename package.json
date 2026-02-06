@@ -1,12 +1,13 @@
 {
   "name": "career-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "Career Integration Service",
   "main": "dist/server.js",
   "scripts": {
     "dev": "ts-node-dev --respawn src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,8 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "jest": "^30.2.0"
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6"
   }
 }

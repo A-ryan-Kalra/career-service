@@ -1,12 +1,16 @@
 import express, { Application, Request, Response } from "express";
 import dotenv from "dotenv";
+import rateRoutes from "./routes/rate.route";
+import { errorHandler } from "./middleware/errorHandler";
 const app: Application = express();
 
-dotenv.config();
+dotenv.config({ path: ".env.example", override: true });
+
 app.use(express.json());
-console.log("first");
-app.get("/", (req: Request, res: Response) => {
-  res.send("Hello");
-});
+
+// Routes
+app.use("/api", rateRoutes);
+
+app.use(errorHandler);
 
 export default app;

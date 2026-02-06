@@ -4,7 +4,7 @@ Simple MVC-style backend in TypeScript/Node.js (Express). It integrates with UPS
 
 # 📁 Project Structure
 
-src/
+```src/
 ├── app.ts # Express app setup
 ├── server.ts # Server entry point
 │
@@ -43,6 +43,7 @@ src/
 │
 └── tests/
 └── rate.integration.test.ts
+```
 
 # ▶️ How to Run the Project
 

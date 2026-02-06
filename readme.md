@@ -45,7 +45,16 @@ Simple MVC-style backend in TypeScript/Node.js (Express). It integrates with UPS
 └── rate.integration.test.ts
 ```
 
-# ▶️ How to Run the Project
+# ▶️ How to run the Project
+
+##  Clone the Repository
+    
+  ```
+  git clone https://github.com/A-ryan-Kalra/career-service
+    
+  # Enter the working directory
+  cd career-service
+  ```
 
 ### 1. Install dependencies
 

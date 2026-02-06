@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 export const env = {
   PORT: process.env.PORT || "3000",
   UPS_CLIENT_ID: process.env.UPS_CLIENT_ID || "",

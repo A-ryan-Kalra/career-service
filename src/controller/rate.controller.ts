@@ -8,7 +8,6 @@ export async function rateController(
   next: NextFunction,
 ) {
   try {
-    console.log("first");
     const parsed = RateRequestSchema.parse(req.body);
     const rates = await getRates(parsed);
     res.json(rates);

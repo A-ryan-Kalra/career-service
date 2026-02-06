@@ -1,4 +1,3 @@
-import test from "node:test";
 import { getRates } from "../service/rate.service";
 import { expect } from "@jest/globals";
 

@@ -133,9 +133,3 @@ Response
 ```
 npm test
 ```
-
-### 📝 Notes on Testing & Time Constraints
-
-Due to time constraints, not all planned test scenarios could be completed.
-
-The current test suite focuses on Successful response normalization
